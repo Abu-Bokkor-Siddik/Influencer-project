@@ -120,10 +120,13 @@
   .maindiv{
    
     max-width: 330px;
-    max-height: 480px;
-    border: 3px solid rebeccapurple;
+    max-height: 485px;
+    /* border: 3px solid rebeccapurple; */
     /* temporaryyyyyyyyy */
     /* margin: 300px; */
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15)
   }
   .mainimg{
     max-width: 300px;
@@ -164,13 +167,14 @@ font-weight: 700;
 line-height: 143%; /* 20.02px */
 letter-spacing: 0.252px;
 padding-left: 10px;
+padding-bottom: 8px;
   }
 
   /* mainh2 */
   .mainh2{
     max-width: 262px;
     max-height: 70px;
-    border: 3px solid rebeccapurple;
+    /* border: 3px solid rebeccapurple; */
     margin: 20px auto;
   }
   /* reviewicon */
