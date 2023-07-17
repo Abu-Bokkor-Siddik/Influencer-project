@@ -1,0 +1,118 @@
+/* font-family */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Poppins:wght@600;700&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+
+  }
+
+  /* header */
+  header{
+    background-color: #fff;
+    padding: 50px 120px;
+  }
+  /* nav */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px 120px; */
+    margin-bottom: 50px;
+  }
+  /* navul */
+  .navul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* navli */
+  .navli{
+    list-style: none;
+    max-width: 60px;
+    max-height: 34px;
+    /* border: 3px solid red; */
+    margin-right: 34px;
+    padding: 4px;
+
+  }
+  /* navli>a */
+  .navli>a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    
+    font-weight: 600;
+    
+
+  }
+  /* fa-cart-shopping */
+  .fa-cart-shopping{
+     max-width: 36px;
+  }
+  /* navh2 */
+  .navh2{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    
+    font-weight: 700;
+    
+  }
+  /* sectionh1 */
+  .sectionh1{
+    max-width: 582px;
+    max-height: 133px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; 
+  }
+  .sectionp{
+    max-width: 505px;
+    max-height: 60px;
+     color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin:16px 0px;
+  }
+  .sectionbutton{
+    max-width: 166px;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding:  10px 24px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  section{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .sectionimg{
+    margin-top: 30px;
+    max-width: 440px;
+    max-height: 414px;
+    background-image: url('../influencer-gear/images/Circle\ design.svg');
+
+  }
+  .divsection{
+    margin-top: 90px;
+  }
+
+  /* section3 */
+  .section3{
+    margin: 100px  200px;
+  }
