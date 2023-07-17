@@ -105,7 +105,7 @@
     margin-top: 30px;
     max-width: 440px;
     max-height: 414px;
-    background-image: url('../influencer-gear/images/Circle\ design.svg');
+    background-image: url('./images/Circle design.svg');
 
   }
   .divsection{
@@ -199,8 +199,8 @@ padding-bottom: 8px;
       align-items: center;
       /* border: 3px solid blue; */
       /* background-color: #E02C6D; */
-      max-width: 1440px;
-    max-height:3305px;
+      max-width: 100%;
+    /* max-height:3305px; */
      }
 
      /* classp */
