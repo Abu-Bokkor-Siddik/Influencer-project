@@ -116,3 +116,79 @@
   .section3{
     margin: 100px  200px;
   }
+  /* main div */
+  .maindiv{
+   
+    max-width: 330px;
+    max-height: 480px;
+    border: 3px solid rebeccapurple;
+    /* temporaryyyyyyyyy */
+    /* margin: 300px; */
+  }
+  .mainimg{
+    max-width: 300px;
+    max-height: 255px;
+    padding: 14px;
+    
+    
+   
+  }
+  .mainh2one{
+    color: #18191F;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+padding-left: 10px;
+
+  }
+  /* mainp */
+  .mainp{
+    color:  #18191F;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+padding-left: 10px;
+  }
+
+  /* mainp2 */
+  .mainp2{
+    color:  #787885;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 143%; /* 20.02px */
+letter-spacing: 0.252px;
+padding-left: 10px;
+  }
+
+  /* mainh2 */
+  .mainh2{
+    max-width: 262px;
+    max-height: 70px;
+    border: 3px solid rebeccapurple;
+    margin: 20px auto;
+  }
+  /* reviewicon */
+  .reviewicon{
+    display: flex;
+    gap: 8px;
+    padding-left: 10px;
+  }
+  /* check */
+  .check{
+    color: orange;
+     }
+
+     /* parent */
+     .parent{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(3,1fr);
+      grid-row-gap: 45px;
+      padding: 40px 250px;
+     }
